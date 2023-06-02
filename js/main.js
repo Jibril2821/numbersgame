@@ -93,7 +93,7 @@
                 clearTimeout(this.timeoutId);
             }
     
-            this.currentNum = 0;
+            this.currentNum = 1;
             this.board.activate();
     
             this.startTime = Date.now();
