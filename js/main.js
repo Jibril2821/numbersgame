@@ -53,7 +53,7 @@
         activate() {
 
             const nums = [];
-            for (let i = 0; i < this.game.getLevel() ** 2; i++) {
+            for (let i = 1; i <= this.game.getLevel() ** 2; i++) {
                 nums.push(i);
             }
             this.panels.forEach(panel => {
