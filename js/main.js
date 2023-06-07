@@ -126,5 +126,5 @@
         }
     }
 
-    new Game(20);
+    new Game(4);
 }
